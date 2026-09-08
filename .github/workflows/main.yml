@@ -8,10 +8,10 @@ on:
   # 允许手动触发工作流
   workflow_dispatch:
 
-  # 每次推送到 master 分支时运行
+  # 每次推送到 main 分支时运行
   push:
     branches:
-    - master
+    - main
 
 jobs:
   generate:
@@ -25,7 +25,7 @@ jobs:
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: LofiSu
+          github_user_name: OrdoAbChao7
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
