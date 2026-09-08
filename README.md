@@ -45,23 +45,6 @@
 | [student-os](https://github.com/OrdoAbChao7/student-os) | A workspace for tasks, focus time, courses, and personal growth |
 | [personal-blog](https://github.com/OrdoAbChao7/personal-blog) | My personal website and notes |
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=OrdoAbChao7&show_icons=true&hide_border=true&theme=default&rank_icon=github" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OrdoAbChao7&layout=compact&hide_border=true&theme=default" alt="Top languages" />
-</div>
-
-## 🐍 Contribution Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OrdoAbChao7/OrdoAbChao7/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OrdoAbChao7/OrdoAbChao7/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/OrdoAbChao7/OrdoAbChao7/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
 <div align="center">
   <i>Thanks for visiting my profile. Feel free to explore my projects!</i>
 </div>
