@@ -40,10 +40,9 @@
 
 | Project | Description |
 | --- | --- |
-| [wechat-intelligence-hub](https://github.com/OrdoAbChao7/wechat-intelligence-hub) | Local-first WeChat knowledge and opportunity tracking system |
-| [mathmodel-ai](https://github.com/OrdoAbChao7/mathmodel-ai) | Verifiable AI workflows for mathematical modeling |
-| [student-os](https://github.com/OrdoAbChao7/student-os) | A workspace for tasks, focus time, courses, and personal growth |
-| [personal-blog](https://github.com/OrdoAbChao7/personal-blog) | My personal website and notes |
+| [CountyResearchAI](https://github.com/OrdoAbChao7/CountyResearchAI) | LLM 县域产业 AI 调研工具：自动抓取公开网络与政府数据，输出 Markdown 研报 |
+| [Zhihucrawler](https://github.com/OrdoAbChao7/Zhihucrawler) | Windows desktop Zhihu crawler and collection downloader |
+| [courselm](https://github.com/OrdoAbChao7/courselm) | 课程资料 → NotebookLM → Obsidian 复习文档自动化流水线 |
 
 <div align="center">
   <i>Thanks for visiting my profile. Feel free to explore my projects!</i>
