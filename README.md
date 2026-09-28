@@ -13,7 +13,7 @@
     <a href="https://ordoabchao7.github.io/personal-blog/">
       <img src="https://img.shields.io/badge/Blog-Personal%20Blog-0078D7?style=flat&logo=github-pages&logoColor=white" alt="Personal blog" />
     </a>
-    <img src="https://komarev.com/ghpvc/?username=OrdoAbChao7&style=flat&color=0078D7" alt="Profile views" />
+    <img src="https://hits.sh/github.com/OrdoAbChao7.svg?style=flat&label=Profile%20views&color=0078D7" alt="Profile views" />
   </p>
 
   <p>
