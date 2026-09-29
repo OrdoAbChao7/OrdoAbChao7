@@ -13,7 +13,9 @@
     <a href="https://ordoabchao7.github.io/personal-blog/">
       <img src="https://img.shields.io/badge/Blog-Personal%20Blog-0078D7?style=flat&logo=github-pages&logoColor=white" alt="Personal blog" />
     </a>
-    <img src="https://hits.sh/github.com/OrdoAbChao7.svg?style=flat&label=Profile%20views&color=0078D7" alt="Profile views" />
+    <a href="https://hits.sh/github.com/OrdoAbChao7/">
+      <img src="https://hits.sh/github.com/OrdoAbChao7.svg?style=flat&label=Profile%20views&color=0078D7" alt="Profile views" />
+    </a>
   </p>
 
   <p>
@@ -23,27 +25,35 @@
 
 </div>
 
-## 👋 About Me
+---
 
-- 🔭 I am exploring **AI applications, agent workflows, and developer tools**.
-- 🧩 I enjoy turning repetitive tasks and complex workflows into practical software.
-- 📚 I am currently learning through projects in **Python, TypeScript, Go, and C**.
-- 🌱 My repositories focus on local-first tools, automation, mathematical modeling, and intelligent knowledge workflows.
+### 👋 About Me
 
-## 🛠️ Tech Stack
+- 🔭 Exploring **AI applications, agent workflows, and developer productivity tools**.
+- 🧩 Turning repetitive tasks and complex research workflows into practical software.
+- 📚 Continuous learning through hands-on engineering across **Python, TypeScript, Go, and C**.
+- 🌱 Focusing on local-first tools, workflow automation, mathematical modeling, and intelligent knowledge management.
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,go,c,powershell,astro,react,nodejs,git,github,vscode&perline=13" alt="Tech stack" />
+---
+
+### 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,go,c,powershell,astro,react,nodejs,git,github,vscode&perline=12" alt="Tech stack" />
 </p>
 
-## 🚀 Featured Projects
+---
 
-| Project | Description |
-| --- | --- |
-| [CountyResearchAI](https://github.com/OrdoAbChao7/CountyResearchAI) | LLM 县域产业 AI 调研工具：自动抓取公开网络与政府数据，输出 Markdown 研报 |
-| [Zhihucrawler](https://github.com/OrdoAbChao7/Zhihucrawler) | Windows desktop Zhihu crawler and collection downloader |
-| [courselm](https://github.com/OrdoAbChao7/courselm) | 课程资料 → NotebookLM → Obsidian 复习文档自动化流水线 |
+### 🚀 Featured Projects
+
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| [**CountyResearchAI**](https://github.com/OrdoAbChao7/CountyResearchAI) | LLM 县域产业 AI 调研助手：自动化公开数据采集、证据链留存与研报初稿生成 | `Python` `LLM Agent` `Research Pipeline` |
+| [**courselm**](https://github.com/OrdoAbChao7/courselm) | 课程资料自动化流水线：课件资料整理 → NotebookLM 知识提炼 → Obsidian 复习文档 | `Python` `NotebookLM` `Obsidian` |
+| [**Zhihucrawler**](https://github.com/OrdoAbChao7/Zhihucrawler) | Windows 桌面端知乎采集器：支持回答、专栏与收藏夹结构化数据抓取与离线下载 | `Python` `Web Scraping` `Desktop Tool` |
+
+<br/>
 
 <div align="center">
-  <i>Thanks for visiting my profile. Feel free to explore my projects!</i>
+  <sub>⭐️ <i>Thanks for visiting my profile! Feel free to explore my repositories.</i></sub>
 </div>
