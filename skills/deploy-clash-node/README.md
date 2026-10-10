@@ -7,7 +7,7 @@
 ���������й��� IPv4����ƽ̨����ǽ����� TCP `80`��`443`��`8443`������ `sudo` Ȩ�޵��û���¼�����������У�
 
 ```bash
-curl -fsSLo deploy-clash-node.sh https://raw.githubusercontent.com/OrdoAbChao7/OrdoAbChao7/main/skills/deploy-clash-node/scripts/deploy.sh && sudo bash deploy-clash-node.sh
+curl -fsSLo deploy-clash-node.sh https://raw.githubusercontent.com/OrdoAbChao7/OrdoAbChao7/105892a6e14f9f5457401f43f42babcac870eb0e/skills/deploy-clash-node/scripts/deploy.sh && sudo bash deploy-clash-node.sh
 ```
 
 �ű����Զ����ɶ����� UUID��Reality ��Կ�Ͷ������·������ɺ󽫴�ӡ���� URL���� URL ճ���� Clash Verge Rev �ġ����ġ�ҳ�浼�롣URL Ҳ�����ڷ������� `/root/clash-node/access.txt`��
