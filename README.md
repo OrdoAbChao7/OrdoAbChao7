@@ -25,23 +25,21 @@
 
 ### 👋 About Me
 
-- 🤖 **Focus**: Building reliable AI agents, tool-using workflows, RAG applications, and developer productivity tools.
-- ⚙️ **Engineering**: Plan-and-Execute orchestration, structured outputs (Pydantic), error recovery, and reproducible benchmark evaluations.
+- 🤖 **Focus**: Building reliable AI agents, tool-using workflows, RAG systems, and developer productivity tools.
+- ⚙️ **Engineering**: Plan-and-Execute orchestration, structured outputs (`Pydantic`), failure handling, and benchmark evaluations.
 - 🌟 **Open Source**: Upstream contributor to **n8n**, **DeepTutor**, and developer tooling ecosystems.
-- 🎓 **Status**: Class of 2028 undergraduate at Wuhan University of Technology, actively seeking AI Agent / LLM application internships.
 
 ---
 
-### 🛠️ Tech Stack & Competencies
+### 🛠️ Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,typescript,nodejs,fastapi,sqlite,git,githubactions,docker,react,c,vscode&perline=12" alt="Tech stack" />
 </p>
 
-* **🤖 AI Agents & Tool Use**: Task orchestration & state machines · Tool calling & schema validation · Execution tracing · Fallback recovery
-* **🔍 RAG & Retrieval Evaluation**: Hybrid search (vector + keyword) · Reciprocal Rank Fusion (RRF) · Factual benchmark evaluation · Ablation analysis
-* **🐍 Python & Application**: Python (asyncio, Pydantic, httpx, pytest) · REST APIs · Structured outputs · Caching & resume-on-break pipelines
-* **⚙️ Engineering & Testing**: Git PR workflows · GitHub Actions CI/CD · Test isolation with mocks · Upstream regression testing
+<p align="center">
+  <code>Python (asyncio / Pydantic / pytest)</code> · <code>Agent Workflows & Tool Calling</code> · <code>Hybrid RAG & RRF</code> · <code>CI/CD & Mocking</code>
+</p>
 
 ---
 
@@ -49,10 +47,10 @@
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| [**CountyResearchAI**](https://github.com/OrdoAbChao7/CountyResearchAI) | **LLM Research Agent**: Plan-and-Execute runtime, dynamic question-tree planning, multi-search provider routing, fact verification, and 260+ regression tests. | `Python` `Agent Runtime` `Tool Calling` `pytest` |
-| [**mathmodel-ai**](https://github.com/OrdoAbChao7/mathmodel-ai) | **Verifiable Agent Workflows**: Local-first platform with Evidence Registry (code/artifact SHA binding), human-in-the-loop checkpoints (H1–H4), and G1–G9 quality gates. | `Python` `Workflow Orchestration` `Evidence Registry` |
-| [**lingshan-ai-guide**](https://github.com/OrdoAbChao7/lingshan-ai-guide-ablation) | **RAG Retrieval Benchmark**: Vector + keyword + structured hybrid retrieval with RRF reranking, evaluated on 50-query factual benchmark with 7-part ablation studies. | `Python` `TypeScript` `ChromaDB` `Hybrid RAG` |
-| [**courselm**](https://github.com/OrdoAbChao7/courselm) | **Document Automation Pipeline**: Slides parsing → LLM distillation → Pydantic schema validation, featuring per-stage caching, resume-on-break, and Windows CI. | `Python` `asyncio` `Pydantic` `CI/CD` |
+| [**CountyResearchAI**](https://github.com/OrdoAbChao7/CountyResearchAI) | **LLM Research Agent**: Plan-and-Execute runtime, dynamic question-tree planning, multi-search provider routing, and 260+ regression tests. | `Python` `Agent Runtime` `pytest` |
+| [**mathmodel-ai**](https://github.com/OrdoAbChao7/mathmodel-ai) | **Verifiable Agent Workflows**: Local-first platform with Evidence Registry (code/artifact SHA binding), human checkpoints (H1–H4), and G1–G9 release gates. | `Python` `Workflow` `Verification` |
+| [**lingshan-ai-guide**](https://github.com/OrdoAbChao7/lingshan-ai-guide-ablation) | **RAG Retrieval Benchmark**: Vector + keyword hybrid retrieval with RRF reranking, evaluated on 50-query factual benchmark with 7-part ablation. | `Python` `Hybrid RAG` `ChromaDB` |
+| [**courselm**](https://github.com/OrdoAbChao7/courselm) | **Document Automation Pipeline**: Slides parsing → LLM distillation → Pydantic validation, featuring per-stage caching, resume-on-break, and Windows CI. | `Python` `Pydantic` `CI/CD` |
 
 > *Other Projects: [MicroGlow-Translate](https://github.com/OrdoAbChao7/MicroGlow-Translate) (ESP32 TinyML, Provincial Grant) · [esp-screenpilot](https://github.com/OrdoAbChao7/esp-screenpilot) (ESP32-S3 HID) · [student-os](https://github.com/OrdoAbChao7/student-os)*
 
@@ -61,14 +59,14 @@
 ### 🌟 Open Source Contributions
 
 - **[n8n-io / n8n](https://github.com/n8n-io/n8n)** *(Workflow Automation Platform)*
-  - Fixed error payload loss and `TypeError` crashes in Splunk v2 node when "Continue On Fail" is enabled; added HTTP-boundary regression test suites without requiring a live instance ([#40368](https://github.com/n8n-io/n8n/pull/40368) · **Merged**).
+  - Fixed error payload loss and `TypeError` under "Continue On Fail" with HTTP regression tests ([#40368](https://github.com/n8n-io/n8n/pull/40368) · **Merged**).
 - **[HKUDS / DeepTutor](https://github.com/HKUDS/DeepTutor)** *(AI Tutoring Assistant)*
-  - Fixed multi-turn tutoring misclassifying consecutive follow-ups as knowledge forgetting; decoupled error correction from delayed review with state replay tests ([#1794](https://github.com/HKUDS/DeepTutor/pull/1794) · **Merged**).
-  - Resolved process decoding exceptions and false LLM retry triggers from numeric request IDs; aligned health checks with token budgets ([#1690](https://github.com/HKUDS/DeepTutor/pull/1690) · **Merged**).
+  - Decoupled multi-turn tutoring error correction from delayed review ([#1794](https://github.com/HKUDS/DeepTutor/pull/1794) · **Merged**).
+  - Resolved process decoding exceptions & health check token budget handling ([#1690](https://github.com/HKUDS/DeepTutor/pull/1690) · **Merged**).
 - **[Draculabo / AntigravityManager](https://github.com/Draculabo/AntigravityManager)** *(Model API Gateway)*
-  - Resolved HTTP 413 payload truncation on multimodal/long-context inference by setting a 64 MiB limit on model routing while keeping 1 MiB management guards ([#335](https://github.com/Draculabo/AntigravityManager/pull/335) · **Merged**).
+  - Resolved HTTP 413 payload truncation on multimodal inference via 64 MiB routing limit ([#335](https://github.com/Draculabo/AntigravityManager/pull/335) · **Merged**).
 - **[HKUDS / LightRAG](https://github.com/HKUDS/LightRAG)** *(Graph RAG)*
-  - Enhanced Zhipu SDK error classification and retry handling, adding HTTP MockTransport request regression tests ([#4154](https://github.com/HKUDS/LightRAG/pull/4154) · *Under Review*).
+  - Enhanced Zhipu SDK error classification and retry logic with MockTransport tests ([#4154](https://github.com/HKUDS/LightRAG/pull/4154) · *Under Review*).
 
 <br/>
 
