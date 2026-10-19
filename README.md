@@ -62,7 +62,6 @@
 
 - **[n8n-io / n8n](https://github.com/n8n-io/n8n)** *(Workflow Automation Platform)*
   - Fixed error payload loss and `TypeError` crashes in Splunk v2 node when "Continue On Fail" is enabled; added HTTP-boundary regression test suites without requiring a live instance ([#40368](https://github.com/n8n-io/n8n/pull/40368) · **Merged**).
-  - Patched small fraction serialization in Google Cloud Firestore node where small decimals (`1e-7`) were incorrectly cast to integers, adding 22 boundary test cases ([#40372](https://github.com/n8n-io/n8n/pull/40372) · *Draft*).
 - **[HKUDS / DeepTutor](https://github.com/HKUDS/DeepTutor)** *(AI Tutoring Assistant)*
   - Fixed multi-turn tutoring misclassifying consecutive follow-ups as knowledge forgetting; decoupled error correction from delayed review with state replay tests ([#1794](https://github.com/HKUDS/DeepTutor/pull/1794) · **Merged**).
   - Resolved process decoding exceptions and false LLM retry triggers from numeric request IDs; aligned health checks with token budgets ([#1690](https://github.com/HKUDS/DeepTutor/pull/1690) · **Merged**).
@@ -70,13 +69,6 @@
   - Resolved HTTP 413 payload truncation on multimodal/long-context inference by setting a 64 MiB limit on model routing while keeping 1 MiB management guards ([#335](https://github.com/Draculabo/AntigravityManager/pull/335) · **Merged**).
 - **[HKUDS / LightRAG](https://github.com/HKUDS/LightRAG)** *(Graph RAG)*
   - Enhanced Zhipu SDK error classification and retry handling, adding HTTP MockTransport request regression tests ([#4154](https://github.com/HKUDS/LightRAG/pull/4154) · *Under Review*).
-
----
-
-### 💼 Open to Opportunities & Contact
-
-* **Target Roles**: AI Agent Engineer Intern / LLM Application Developer / RAG Engineer Intern (Open to remote or on-site).
-* **Connect**: [GitHub (@OrdoAbChao7)](https://github.com/OrdoAbChao7) · [Personal Blog](https://ordoabchao7.github.io/personal-blog/)
 
 <br/>
 
