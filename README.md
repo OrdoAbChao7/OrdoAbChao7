@@ -48,8 +48,6 @@
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
 | [**CountyResearchAI**](https://github.com/OrdoAbChao7/CountyResearchAI) | **LLM Research Agent**: Plan-and-Execute runtime, dynamic question-tree planning, multi-search provider routing, and 260+ regression tests. | `Python` `Agent Runtime` `pytest` |
-| [**mathmodel-ai**](https://github.com/OrdoAbChao7/mathmodel-ai) | **Verifiable Agent Workflows**: Local-first platform with Evidence Registry (code/artifact SHA binding), human checkpoints (H1–H4), and G1–G9 release gates. | `Python` `Workflow` `Verification` |
-| [**lingshan-ai-guide**](https://github.com/OrdoAbChao7/lingshan-ai-guide-ablation) | **RAG Retrieval Benchmark**: Vector + keyword hybrid retrieval with RRF reranking, evaluated on 50-query factual benchmark with 7-part ablation. | `Python` `Hybrid RAG` `ChromaDB` |
 | [**courselm**](https://github.com/OrdoAbChao7/courselm) | **Document Automation Pipeline**: Slides parsing → LLM distillation → Pydantic validation, featuring per-stage caching, resume-on-break, and Windows CI. | `Python` `Pydantic` `CI/CD` |
 
 > *Other Projects: [MicroGlow-Translate](https://github.com/OrdoAbChao7/MicroGlow-Translate) (ESP32 TinyML, Provincial Grant) · [esp-screenpilot](https://github.com/OrdoAbChao7/esp-screenpilot) (ESP32-S3 HID) · [student-os](https://github.com/OrdoAbChao7/student-os)*
@@ -65,8 +63,6 @@
   - Resolved process decoding exceptions & health check token budget handling ([#1690](https://github.com/HKUDS/DeepTutor/pull/1690) · **Merged**).
 - **[Draculabo / AntigravityManager](https://github.com/Draculabo/AntigravityManager)** *(Model API Gateway)*
   - Resolved HTTP 413 payload truncation on multimodal inference via 64 MiB routing limit ([#335](https://github.com/Draculabo/AntigravityManager/pull/335) · **Merged**).
-- **[HKUDS / LightRAG](https://github.com/HKUDS/LightRAG)** *(Graph RAG)*
-  - Enhanced Zhipu SDK error classification and retry logic with MockTransport tests ([#4154](https://github.com/HKUDS/LightRAG/pull/4154) · *Under Review*).
 
 <br/>
 
