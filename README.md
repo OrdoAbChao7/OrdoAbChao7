@@ -60,21 +60,12 @@
 
 - **[n8n-io / n8n](https://github.com/n8n-io/n8n)** *(Workflow Automation Platform · 209k★)*
   - Fixed error payload loss and `TypeError` in the Splunk node under "Continue On Fail", with HTTP regression tests ([#40368](https://github.com/n8n-io/n8n/pull/40368) · **Merged**).
-- **[HKUDS / DeepTutor](https://github.com/HKUDS/DeepTutor)** *(Lifelong AI Tutoring · 55k★)*
-  - Decoupled multi-turn tutoring error correction from delayed SRS review, preventing compounding lapses ([#1794](https://github.com/HKUDS/DeepTutor/pull/1794) · **Merged**).
-  - Hardened process-probe decoding and eliminated false-positive LLM retries ([#1690](https://github.com/HKUDS/DeepTutor/pull/1690) · **Merged**).
-  - Made the `doctor` CLI probe respect the configured token budget ([#1694](https://github.com/HKUDS/DeepTutor/pull/1694) · **Merged**).
 - **[morluto / rea](https://github.com/morluto/rea)** *(Agentic Reverse Engineering · 432k★)*
   - Reclassified malformed residual-unknown graphs from `unreadable_output` to `invalid_input`, surfacing the offending Evidence ID and the correct recovery path ([#6321](https://github.com/morluto/rea/pull/6321) · **Merged**).
-- **[StarTrail-org / PixelRAG](https://github.com/StarTrail-org/PixelRAG)** *(Pixel-native Retrieval · 10.8k★)*
-  - Fixed PDF-subset rendering that restarted tile indices at zero and misnamed pages ([#171](https://github.com/StarTrail-org/PixelRAG/pull/171) · **Merged**).
-  - Applied EXIF display orientation before tiling and alpha compositing of local images ([#173](https://github.com/StarTrail-org/PixelRAG/pull/173) · **Merged**).
-- **[XiaoDuoYa / codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt)** *(Codex × ChatGPT Bridge · 7.6k★)*
-  - Clarified the Web GPT catalog support boundary plus the Windows restart / `/v1/models` recovery flow in troubleshooting docs ([#434](https://github.com/XiaoDuoYa/codex-with-chatgpt/pull/434) · **Merged**).
-- **[Draculabo / AntigravityManager](https://github.com/Draculabo/AntigravityManager)** *(Model API Gateway · 2.5k★)*
-  - Scoped the 64 MiB Fastify JSON body limit to model payload routes, fixing HTTP 413 truncation on multimodal inference ([#335](https://github.com/Draculabo/AntigravityManager/pull/335) · **Merged**).
-- **[MrcolorH / antigravity-skin](https://github.com/MrcolorH/antigravity-skin)** *(Desktop Theming Plugin)*
-  - Delivered boot-time self-healing and contrast guards for lost skins and unreadable window controls across a 24-file change set ([#1](https://github.com/MrcolorH/antigravity-skin/pull/1) · **Merged**).
+- **[HKUDS / DeepTutor](https://github.com/HKUDS/DeepTutor)** *(Lifelong AI Tutoring · 55k★)*
+  - Fixed tutoring-session correctness and CLI reliability across 3 merged PRs: stopped multi-turn repairs from compounding SRS lapses ([#1794](https://github.com/HKUDS/DeepTutor/pull/1794)), hardened process-probe decoding against false-positive LLM retries ([#1690](https://github.com/HKUDS/DeepTutor/pull/1690)), and made the `doctor` probe respect the configured token budget ([#1694](https://github.com/HKUDS/DeepTutor/pull/1694)).
+
+> *Also merged in **PixelRAG** [#171](https://github.com/StarTrail-org/PixelRAG/pull/171) / [#173](https://github.com/StarTrail-org/PixelRAG/pull/173) · **codex-with-chatgpt** [#434](https://github.com/XiaoDuoYa/codex-with-chatgpt/pull/434) · **AntigravityManager** [#335](https://github.com/Draculabo/AntigravityManager/pull/335) · **antigravity-skin** [#1](https://github.com/MrcolorH/antigravity-skin/pull/1)*
 
 <br/>
 
